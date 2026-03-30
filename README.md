@@ -1,60 +1,48 @@
-# Hotel-Management-System-
 # 🏨 Hotel Management System
 
 ## 📌 Overview
 
 The **Hotel Management System (HMS)** is a Java-based application designed to manage hotel operations efficiently. It automates tasks such as room booking, customer management, billing, and record keeping.
 
-This project is built using:
+This project demonstrates core concepts of:
 
-* **Java** (Core logic)
-* **Hibernate** (ORM Framework)
-* **SQL** (Database)
+* Object-Oriented Programming (OOP)
+* Basic data handling
+* Structured application design
 
 ---
 
 ## 🚀 Features
 
-* 🛏️ Room Management (Add, Update, Delete Rooms)
-* 👤 Customer Management
-* 📅 Room Reservation System
+* 🛏️ Room Management (Add, View Rooms)
+* 👤 Customer / Visitor Management
+* 📅 Room Booking System
 * 🔑 Check-in / Check-out
-* 💳 Billing System
-* 📊 Data Storage using SQL Database
-* 🔄 Hibernate-based Database Interaction
+* 💳 Basic Billing Functionality
+* 📊 Data handling using Java classes
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology             | Description                                          |
-| ---------------------- | ---------------------------------------------------- |
-| Java                   | Core programming language                            |
-| Hibernate              | ORM framework for database mapping                   |
-| SQL (MySQL/PostgreSQL) | Database management                                  |
-| JDBC                   | Database connectivity (used internally by Hibernate) |
+| Technology          | Description                            |
+| ------------------- | -------------------------------------- |
+| Java                | Core programming language              |
+| OOP Concepts        | Used for system design                 |
+| Hibernate           | ORM framework for database integration |
+| SQL                 | Database management                    |
 
 ---
 
-## 🏗️ Project Structure
+## 📁 Project Structure
 
 ```
-Hotel-Management-System/
+hotelManagementSystem/
 │
-├── src/
-│   ├── entity/        # Hibernate Entities (POJO classes)
-│   ├── dao/           # Data Access Layer
-│   ├── service/       # Business Logic Layer
-│   ├── util/          # Hibernate Utility (SessionFactory)
-│   └── main/          # Main Application
-│
-├── resources/
-│   ├── hibernate.cfg.xml
-│   └── mapping files
-│
-├── database/
-│   └── schema.sql
-│
+├── Driver.java
+├── Room.java
+├── Visitor.java
+├── Fetch.java
 └── README.md
 ```
 
@@ -65,51 +53,33 @@ Hotel-Management-System/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/hotel-management-system.git
-cd hotel-management-system
+git clone https://github.com/Chukkaluru-Pravallika/Hotel-Management-System-.git
+cd Hotel-Management-System-
 ```
 
-### 2️⃣ Configure Database
+### 2️⃣ Run the Project
 
-* Create a database in MySQL/PostgreSQL
-* Update `hibernate.cfg.xml` with:
-
-  * DB URL
-  * Username
-  * Password
-
-### 3️⃣ Run the Application
-
-* Import project into IDE (IntelliJ / Eclipse)
-* Run the `Main` class
-
----
-
-## 🗄️ Database Tables
-
-* **Customer**
-* **Room**
-* **Booking**
-* **Payment**
+* Open in IntelliJ / Eclipse / VS Code
+* Compile and run `Driver.java`
 
 ---
 
 ## 🔄 Workflow
 
-1. Add rooms to the system
-2. Register customer details
-3. Book room based on availability
+1. Add room details
+2. Add visitor/customer details
+3. Allocate rooms
 4. Perform check-in and check-out
-5. Generate bill automatically
+5. Generate basic output
 
 ---
 
 ## ✅ Advantages
 
-* Reduces manual work
-* Efficient data handling
-* Scalable architecture
-* Easy maintenance using Hibernate
+* Simple and easy to understand
+* Good for beginners in Java
+* Demonstrates real-world application logic
+* Easy to extend with database integration
 
 ---
 
@@ -121,10 +91,10 @@ cd hotel-management-system
 
 ## 📚 Future Enhancements
 
-* Web-based UI using Spring Boot
-* Online booking system
-* Payment gateway integration
-* Admin dashboard
+* 🔄 Integrate Hibernate + SQL database
+* 🌐 Build web version using Spring Boot
+* 💳 Add payment system
+* 📊 Admin dashboard
 
 ---
 
@@ -136,13 +106,11 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 
 ## 📄 License
 
-This project is open-source and available under the **MIT License**.
+This project is licensed under the **MIT License**.
 
 ---
 
 ## 👨‍💻 Author
 
-**Your Name**
-GitHub: https://github.com/your-username
-
----
+**Chukkaluru Pravallika**
+GitHub: https://github.com/Chukkaluru-Pravallika
