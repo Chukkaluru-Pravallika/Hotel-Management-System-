@@ -81,13 +81,6 @@ cd Hotel-Management-System-
 * Demonstrates real-world application logic
 * Easy to extend with database integration
 
----
-
-## 📷 Screenshots
-
-*(Add your project screenshots here)*
-
----
 
 ## 📚 Future Enhancements
 
